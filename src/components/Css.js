@@ -13,7 +13,8 @@ export const HomeContainer = styled.div`
 
   .home {
     color: white;
-    background-color: rgba(0, 0, 0, 0.92);
+    
+    background:rgba(0,0,0,0.7);
     max-width: 100vw;
     display: flex;
     font-family: "Montserrat", sans-serif;
@@ -27,21 +28,22 @@ export const HomeContainer = styled.div`
   }
   .projects{
     color: white;
-    background-color: rgba(0, 0, 0, 0.92);
+    background-color: rgba(0,0,0,0.7);
     max-width: 100vw;
     display: flex;
     font-family: "Montserrat", sans-serif;
     align-items: center;
     flex-direction: column;
-    height: 150%;
+    height: 90%;
     line-height: 20px;
+    padding:0px 0px 0px 0px;
    
   }
   
-  h2 {
+  h1 {
     text-align: center;
     margin:130px 0px 0px 0px;
-  
+  font-size:40px;
   }
  
   
@@ -159,16 +161,14 @@ align-items:center;
 transition:all 1s ease-in-out;
 
     }
-    .section2:hover{
-width:70%;
-    }
+    
   
     .section1 {
       overflow: hidden;
       background: black;
       width: 80%;
       line-height: 30px;
-      margin: auto auto 20% auto;
+      margin: auto auto 5% auto;
       color: white;
       height: 100%;
       text-align: justify;
@@ -183,7 +183,7 @@ width:70%;
     }
 .contactBackground{
   color: white;
-    background-color: rgba(0, 0, 0, 0.92);
+    background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
     display: flex;
     font-family: "Montserrat", sans-serif;
@@ -200,7 +200,7 @@ width:70%;
       justify-content: space-around;
       margin: 50px auto 20px auto;
       line-height: 20px;
-      background: Black;
+    
       height: 450px;
       border-radius: 4%;
   
@@ -367,11 +367,11 @@ to{
     line-height: 30px;
     justify-items:center;
     color: white;
-    height: 130vh;
+    height:100%;
     text-align: justify;
     display: grid;
     grid-template-rows: repeat(auto-fill, minmax(240px,1fr));
-    margin:0% auto 40% auto;
+    margin:0% auto 10% auto;
 
     border-radius: 15px;
 
@@ -379,16 +379,18 @@ to{
   
   }
   .mainProject{
-  margin:30px 40px 30px 40px;
+  margin:0px 30px 30px 40px;
   }
     .project{
       display: grid;
       grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
-      grid-gap: 10px;
+    
       justify-items:center;
-      grid-auto-rows: 100px;
-      grid-row-gap: 50px;
+  
+      grid-row-gap: 10px;
       grid-column-gap: 20px;
+      height:100%;
+      padding:5px 20px 10px 5px;
      }
   }
 
@@ -479,6 +481,8 @@ to{
     }
     .section2{
       height:450px;
+     
+     
     }
     .css3 {
       margin: auto 55%;
@@ -524,16 +528,13 @@ to{
   
     }
     .project{
-      display: grid;
-      grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
-      grid-gap: 10px;
-      justify-items:center;
-      grid-auto-rows: 100px;
-      grid-row-gap: 0px;
-      grid-column-gap: 20px;
+     
+      
+      grid-row-gap: 50px;
+     
       padding:0px 20px 0px 20px;
 
- 
+ height:100%;
      }
      
      .mainProject{
@@ -567,7 +568,38 @@ align-items:center;
     }
 
  
+  .contact{
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
   
+    justify-items:center;
+
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    height:100%;
+    padding:5px 20px 10px 5px;
+    background:#3b5dd1;
+    width:20%;
+    padding:0px 20px 0px 30px;
+  }
+  .contact:hover{
+   animation:vibrate 1s infinite alternate;
+  }
+@keyframes vibrate {
+  from{
+  transform:translateY(0px);
+  }
+  to{
+    transform:translateY(10px);
+  }
+
+}
+
+  .section1 h2{
+    text-align:center;
+
+  }
 
     .section ul {
       margin: auto 12%;

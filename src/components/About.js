@@ -11,7 +11,7 @@ class Home extends Component {
       <>
         <HomeContainer>
           <div className="home">
-            <h2>ABOUT</h2>
+            <h1>ABOUT</h1>
             <div className="top ">
               <img src={lovejot} className="image" />
 
