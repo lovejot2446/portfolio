@@ -61,6 +61,8 @@ export const HomeContainer = styled.div`
       z-index: 1;
     }
 
+   
+
     .top:hover {
       animation: move 2s reverse;
     }
@@ -209,6 +211,14 @@ transition:all 1s ease-in-out;
       display: block;
       color: white;
     }
+    
+.gif{
+
+  position:relative;
+  z-index:0;
+
+}
+    
     .section2 h3 {
       padding: 80px 0px 0px 20px;
       color: white;
