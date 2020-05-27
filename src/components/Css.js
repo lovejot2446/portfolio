@@ -163,6 +163,10 @@ align-items:center;
 transition:all 1s ease-in-out;
 
     }
+    .section1 h2{
+      text-align:center;
+  
+    }
     
   
     .section1 {
@@ -389,7 +393,8 @@ to{
   
   }
   .mainProject{
-  margin:0px 30px 30px 40px;
+  margin:20px 30px 30px 40px;
+
   }
     .project{
       display: grid;
@@ -606,10 +611,7 @@ align-items:center;
 
 }
 
-  .section1 h2{
-    text-align:center;
-
-  }
+ 
 
     .section ul {
       margin: auto 12%;
