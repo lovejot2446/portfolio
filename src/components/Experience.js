@@ -11,6 +11,7 @@ class Experience extends Component {
           <div className="section1">
             <h2 style={{ margin: "3% 0% 0% 0%" }}>Experience</h2>
             <i className="far fa-arrow-alt-circle-down skill-icon"></i>
+            <h3>Trillium Global Inc</h3>
             <div className="v2"></div>
 
             <i class="far fa-bookmark"></i>

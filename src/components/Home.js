@@ -17,6 +17,9 @@ class About extends Component {
             <a href="https://www.facebook.com/lovejot.singh.501">
               <i className="fab fa-facebook-square"></i>
             </a>
+            <a href="https://github.com/lovejot2446/">
+              <i class="fab fa-github-square"></i>
+            </a>
           </div>
         </div>
       </AboutContainer>
@@ -78,9 +81,14 @@ const AboutContainer = styled.div`
   .fa-linkedin {
     display: absolute;
     color: white;
-    padding: 0px 0px 25px 125px;
+    padding: 0px 0px 25px 105px;
     font-size: 30px;
   }
+
+  .fa-github-square:hover {
+    color: yellow;
+  }
+
   .fa-linkedin:hover {
     color: yellow;
   }
@@ -88,6 +96,12 @@ const AboutContainer = styled.div`
     display: absolute;
     color: white;
     padding: 0px 0px 25px 25px;
+    font-size: 30px;
+  }
+  .fa-github-square {
+    display: absolute;
+    color: white;
+    padding: 0px 0px 25px 20px;
     font-size: 30px;
   }
   .fa-facebook-square:hover {

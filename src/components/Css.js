@@ -45,7 +45,10 @@ export const HomeContainer = styled.div`
     margin:130px 0px 0px 0px;
   font-size:40px;
   }
- 
+ .section1 h3{
+   text-align:left;
+   margin:0px 0px 0px 0px;
+ }
   
   .top {
       background: black;
